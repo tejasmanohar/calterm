@@ -1,0 +1,29 @@
+{
+  "name": "calterm",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "calterm": "bin/calterm"
+  },
+  "scripts": {
+    "start": "bin/calterm",
+    "precompile": "babel --optional runtime -d dist/ src/",
+    "postinstall": "npm run precompile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasmanohar/calterm.git"
+  },
+  "author": "Tejas Manohar <me@tejas.io>",
+  "bugs": {
+    "url": "https://github.com/tejasmanohar/calterm/issues"
+  },
+  "homepage": "https://github.com/tejasmanohar/calterm#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.25",
+    "cli-table": "^0.3.1"
+  }
+}
