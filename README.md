@@ -54,4 +54,4 @@ the root of the project directory.
 To execute the CLI, run `npm start` in the root of the project directory.
 The script accepts a file path argument (like `npm start gcal.json`) that should
 point to a `.json` file (or a `.js` file exporting an object), but if none is
-provided, it will default to `./calendars.json` (relative to the current working directory).
+provided, it will default to `./calendars.json`.
