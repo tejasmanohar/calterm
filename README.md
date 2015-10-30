@@ -45,7 +45,7 @@ but the rest are required.
 
 ## Setup
 
-Assuming you have Node 0.10.x+ (and thus, NPM) installed, simply clone this repo
+Assuming you have Node 0.12.x+ (though now Node 5 is LTS; and thus, NPM) installed, simply clone this repo
 locally and fetch dependencies + precompile ES6/7 to ES5 via `npm install` in
 the root of the project directory.
 
