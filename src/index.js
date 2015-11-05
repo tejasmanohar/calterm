@@ -29,6 +29,6 @@ function format(events) {
     `${e.month}/${e.day}/${e.year}`,
     e.occasion,
     e.invited_count,
-    !!e.cancelled ? 'Yes' : 'No'
+    e.cancelled ? 'Yes' : 'No'
   ])
 }
